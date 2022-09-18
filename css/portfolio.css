@@ -1,0 +1,10 @@
+/* Секція Лінки */
+
+/* Секція Проекти */
+.projects .title {
+    color: var(--title-text-color);
+}
+
+.projects .text {
+    color: var(--primary-text-color)
+}

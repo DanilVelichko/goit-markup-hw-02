@@ -8,7 +8,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Studio</title>
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body class="page">
@@ -16,8 +20,8 @@
   <header>
     <nav> <a href="index.html" class="logo"><span class="logo-blue">Web</span>Studio</a>
       <ul class="site-nav">
-        <li><a href="" class="link">Студія</a></li>
-        <li><a href="" class="link">Портфоліо</a></li>
+        <li><a href="index.html" class="link current">Студія</a></li>
+        <li><a href="portfolio.html" class="link">Портфоліо</a></li>
         <li><a href="" class="link">Контакти</a></li>
       </ul>
     </nav>
@@ -35,26 +39,26 @@
     <!-- Основний банер -->
     <section class="back-color">
       <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-      <button type="button" class="accent bttn-back">Замовити послугу</button>
+      <button type="button" class="button">Замовити послугу</button>
     </section>
     <!-- Переваги -->
     <section>
-      <h2 class="section-title">Наші переваги</h2>
-      <ul>
+      <h2 class="section-title"></h2>
+      <ul class="features">
         <li>
-          <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+          <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
           <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
         </li>
         <li>
-          <h3>ПУНКТУАЛЬНІСТЬ</h3>
+          <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
           <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
         </li>
         <li>
-          <h3>ПЛАНУВАННЯ</h3>
+          <h3 class="title">ПЛАНУВАННЯ</h3>
           <p>Так само консультація з широким активом значною мірою зумовлює.</p>
         </li>
         <li>
-          <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+          <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
           <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
         </li>
       </ul>
@@ -70,101 +74,30 @@
     </section>
     <!-- Команда -->
     <section>
-      <h2>Наша команда</h2>
-      <ul>
+      <h2 class="section-title">Наша команда</h2>
+      <ul class="team">
         <li>
           <img src="images/imgproddes.jpg" alt="Фотографія Продакт дизайнера" width="270">
-          <h3>Ігор Дем'яненко</h3>
+          <h3 class="title">Ігор Дем'яненко</h3>
           <p>Product Designer</p>
         </li>
         <li>
           <img src="images/imgfrontdev.jpg" alt="Фотографія фронтенд девелопера" width="270">
-          <h3>Ольга Рєпіна</h3>
+          <h3 class="title">Ольга Рєпіна</h3>
           <p>Frontend Developer</p>
         </li>
         <li>
           <img src="images/imgmarketing.jpg" alt="Фотографія маркетолога" width="270">
-          <h3>Микола Тарасов</h3>
+          <h3 class="title">Микола Тарасов</h3>
           <p>Marketing</p>
         </li>
         <li>
           <img src="images/imguides.jpg" alt="Фотографія ЮАй дизайнера" width="270">
-          <h3>Михайло Єрмаков</h3>
+          <h3 class="title">Михайло Єрмаков</h3>
           <p>UI Designer</p>
         </li>
       </ul>
     </section>
-
-    <!-- Лінки -->
-    <section>
-      <h2></h2>
-      <ul>
-        <li class="">Усі</li>
-        <li class="">Веб-сайти</li>
-        <li class="">Додатки</li>
-        <li class="">Дизайн</li>
-        <li class="">Маркетинг</li>
-      </ul>
-    </section>
-    <!-- Проекти -->
-    <ul>
-      <h2></h2>
-      <li>
-        <img src="images/imgtechnokrak.jpg" alt="Ноутбук з фотографіями на екрані">
-        <h3>Технокряк</h3>
-        <p>Веб-сайт</p>
-      </li>
-
-      <li>
-        <img src="images/imgposter.jpg" alt="баскетболісти грають за м'яч">
-        <h3>Постер New Orlean vs Golden Star</h3>
-        <p>Дизайн</p>
-      </li>
-
-      <li>
-        <img src="images/imgseafood.jpg" alt="">
-        <h3>Ресторан Seafood</h3>
-        <p>Додаток</p>
-      </li>
-
-      <li>
-        <img src="images/imgphones.jpg" alt="">
-        <h3>Проєкт Prime</h3>
-        <p>Маркетинг</p>
-      </li>
-
-      <li>
-        <img src="images/imgboxs.jpg" alt="">
-        <h3>Проєкт Boxes</h3>
-        <p>Додаток</p>
-      </li>
-
-      <li>
-        <img src="images/imgmonitor.jpg" alt="">
-        <h3>Inspiration has no Borders</h3>
-        <p>Веб-сайт</p>
-      </li>
-
-      <li>
-        <img src="images/imgbook.jpg" alt="">
-        <h3>Видання Limited Edition</h3>
-        <p>Дизайн</p>
-      </li>
-
-      <li>
-        <img src="images/imglab.jpg" alt="">
-        <h3>Проєкт LAB</h3>
-        <p>Маркетинг</p>
-      </li>
-
-      <li>
-        <img src="images/imgbusiness.jpg" alt="">
-        <h3>Growing Business</h3>
-        <p>Додаток</p>
-      </li>
-
-    </ul>
-
   </main>
   <!-- Футер -->
   <footer>

@@ -1,0 +1,29 @@
+/* Секція основного банеру */
+.back-color {
+  background-color: #2F303A;
+}
+
+.hero-title {
+  color: #FFFFFF;
+}
+
+.bttn-back {
+  background-color: #2196F3;
+}
+
+/* стилізація секцій */
+.section {}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Секція Переваги */
+.features .title {
+  color: var(--title-text-color);
+}
+
+/* Секція Команда */
+.team .title {
+  color: var(--title-text-color);
+}
