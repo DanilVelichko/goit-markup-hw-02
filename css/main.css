@@ -4,11 +4,30 @@
 }
 
 .hero-title {
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  text-align: center;
+  text-transform: uppercase;
   color: #FFFFFF;
 }
 
-.bttn-back {
+.button-design {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   background-color: #2196F3;
+
+}
+
+.button-text {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 /* стилізація секцій */
@@ -16,14 +35,40 @@
 
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* Секція Переваги */
 .features .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
   color: var(--title-text-color);
+}
+
+.features .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* Секція Команда */
 .team .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
   color: var(--title-text-color);
+}
+
+.team .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--primary-text-color);
 }
